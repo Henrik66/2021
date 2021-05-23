@@ -5,18 +5,21 @@ import turtle
 screen = turtle.Screen()
 screen.bgcolor("white")
 
+# base color
 monkey1 = turtle.Turtle()
 monkey1.shape("arrow")
 monkey1.color("#654321")
 monkey1.width(30)
 monkey1.speed(1000)
 
+# secondary color
 monkey2 = turtle.Turtle()
 monkey2.shape("arrow")
 monkey2.color("#D2B48C")
 monkey2.width(15)
 monkey2.speed(1000)
 
+# detail
 monkey3 = turtle.Turtle()
 monkey3.shape("arrow")
 monkey3.color("#000000")
@@ -101,6 +104,7 @@ def monke():
     monkey1.forward(10)
     monkey1.left(30)
     amt7 = 10
+#head
     while amt7 > 0:
         monkey1.left(5)
         monkey1.forward(15)
